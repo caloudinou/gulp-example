@@ -1,0 +1,14 @@
+{
+  "base" : "app/",
+  "dev":{
+    "common":"app/common/",
+    "components":"app/components/",
+    "config":"app/config/",
+    "models":"app/models/"
+  },
+  "prod":{
+    "css":"prod/src/css/",
+    "js":"prod/src/js/",
+    "vendor":"prod/src/vendor/"
+  }
+}

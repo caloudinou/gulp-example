@@ -1,0 +1,35 @@
+
+.wrap{
+ white-space: nowrap;
+}
+%w-s{
+  white-space: normal;
+  vertical-align: middle;
+}
+%w-t{
+  white-space: normal;
+  vertical-align: top;
+}
+
+.dp{
+
+  &-block{
+    display:block;
+  }
+  &-none{
+    display: none;
+  }
+  &-inline{
+    display: inline;
+    @extend %w-s;
+    &-block {
+      display: inline-block;
+      @extend %w-s;
+      &-top {
+        display: inline-block;
+        @extend %w-t;
+      }
+    }
+  }
+
+}
