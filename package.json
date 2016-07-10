@@ -1,5 +1,5 @@
 {
-  "name": "snow-chat",
+  "name": "gulp-example",
   "version": "1.0.0",
   "description": "chatroom by snow grp",
   "main": "gulpfile.js",
